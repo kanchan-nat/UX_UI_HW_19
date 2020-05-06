@@ -1,0 +1,508 @@
+#mainHeader {
+    height: 300px;
+    width: 100%;
+    background: #FED121;
+}
+
+
+#mainHeaderBackground {
+    height: 200px;
+    width: 500px;
+}
+
+.Logo-Img {
+    display: block;
+    /* height: 700px; */
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.mainHeaderPh {
+    font: bold 14px Sans-Serif;
+    font-size: 14px;
+    color: #504720;
+}
+
+.nameHeader {
+    font: bold 32px Sans-Serif;
+    text-align: center;
+    color: #504720;
+}
+
+.oneLiner {
+    font: italic 12px Sans-Serif;
+    text-align: center;
+    font-size: 14px;
+    color: #504720;
+    margin-top: 89px;
+    width: 24%;
+    float: left;
+    padding-left: 535px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.nav li a:hover{
+    font-size: 30px;
+}
+
+.nav-bar {
+    width:100vh;    
+    height:45px;
+    position:fixed;
+    font: bold 20px Sans-Serif;
+    z-index:1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #504720;
+    padding-top: 30px;
+    padding-left: 50px;
+    -webkit-transform-origin: left top;
+    -webkit-transform:rotate(-90deg) translateX(-100%);
+  }
+  ul.nav li {    
+    margin-right:30px;
+    padding-top: 40px;
+    float:right;
+    height:100%;
+    line-height:45px;
+  }
+
+
+
+
+#nav5{
+    animation: navbar 0.5s;
+}
+@keyframes navbar{
+    from{
+       transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+#nav4{
+    animation: navbar4 1s;
+}
+@keyframes navbar4{
+    from{
+        transform: translateY(-250px)
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+#nav3{
+    animation: navbar3 1.5s;
+}
+@keyframes navbar3{
+    from{
+        transform: translateY(-350px)
+    }
+    to{
+        transform: translateY(0px)
+    }
+}
+#nav2{
+    animation: navbar2 2s;
+}
+@keyframes navbar2{
+    from{
+        transform: translateY(-450px)
+    }
+    to{
+        transform: translateY(0px)
+    }
+}
+
+#nav1{
+    animation: navbar1 3s;
+}
+@keyframes navbar1{
+    from{
+        transform: translateY(-550px)
+    }
+    to{
+        transform: translateY(0px)
+    }
+}
+
+main {
+    margin-top: 75px;
+    position: relative;
+    width: 80%;
+    padding-left: 200px;
+}
+
+
+.section-header {
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font: normal 25px Sans-Serif;
+    color: #504720;
+    text-align: center;
+    padding-right: 150px;
+    
+}
+
+
+.fs-column {
+  float: left;
+   width: 20%;
+   padding-right: 20px;
+   padding-left: 20px;
+   margin-bottom: 30px;
+}
+
+.ss-column {
+    float: left;
+     width: 25%;
+     padding-left: 20px;
+  }
+
+.fs-column h4{
+    margin-bottom: 20px;
+    font: normal 20px Sans-Serif;
+    color: #504720;
+    text-align: center;
+    padding-right: 45px;
+}
+
+.ss-column h4{
+    margin-bottom: 20px;
+    font: normal 20px Sans-Serif;
+    color: #504720;
+    text-align: center;
+    padding-right: 51px;
+}
+
+.fs-column figure{
+        border: white;
+        background-color: white;
+        width:185px;
+        height:280px;
+        align-items: center;
+        position:relative;
+      
+}
+
+.fs-column figcaption :hover{
+    background-color: gray;
+}
+
+.fs-column figcaption{
+    position: relative;
+    /* left: 375px; */
+    height: 30px;
+    font-size: 24px;
+    color: #504720;
+    width: 135px;
+    background-color: #FED121;
+    border-radius: 12px;
+    border-width: 0px;
+    /* margin-bottom: 35px; */
+    text-align: center;
+    padding-right: 27px;
+    padding-left: 20px;
+    margin-right: 31px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+
+}
+
+
+.ss-column img{
+    height: 212px;
+    width: 78%;
+}
+
+.ss-row{
+   width: 75%;
+   padding-left: 15%
+}
+
+
+/* Clearfix (clear floats) */
+.ss-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about-me h1{
+    margin-top: 100px;
+    font: normal 25px Sans-Serif;
+    color: #504720;
+
+}
+
+.about-me p{
+    font: normal 18px Sans-Serif;
+    color: #504720;
+    margin-top: 50px;
+    width: 78%;
+    line-height:1.6;
+    padding-left: 20px;
+}
+
+.my-photo-id {
+    padding-left: 20px;
+    float: right;
+    margin-right: 125px;
+    height: 338px;
+}
+
+.my-skills {
+    margin-top: 150px;
+    width: 78%;
+}
+
+.my-skills h1{
+    font: normal 25px Sans-Serif;
+    color: #504720;
+    margin-bottom: 30px;
+
+}
+
+.my-skills p{
+    font: normal 20px Sans-Serif;
+    color: #504720;
+    padding-left: 30px;
+    /*word-spacing: 30px;*/
+}
+
+
+.my-skills br{
+    line-height: 150%;
+}
+
+
+.my-resume h1{
+    font: normal 25px Sans-Serif;
+    color: #504720;
+    margin-top: 200px;
+}
+
+.my-resume object{
+    position: relative;
+    left: 75px;
+    width: 75%;
+    height: 750px;
+    background: white;
+    margin-top: 30px;
+}
+
+.my-resume object:focus {
+    outline: none;
+}
+
+
+.footer{
+    width: 55%;
+    padding-left: 40px;
+}
+.shape {
+    position: relative;
+    left: 375px;
+    height: 64px;
+    width: 175px;
+    background-color: #FED121;
+    color:  #504720;
+    font-size: 20px;
+    border-radius: 12px;
+    border-width: 0px;
+    margin-bottom: 35px;
+    float: left;
+    padding-right: 23px;
+    padding-left: 20px;
+    margin-right: 29px;
+    margin-top:29px;
+    outline: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.mainfooter{
+    height: 300px;
+    width: 100%;
+    /*background: #FED121;*/
+    margin-bottom: 0px;
+    
+}
+
+
+
+.zoom {
+    -webkit-transform: scale(1.4); 
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+figure{
+    border: white;
+    background-color: white;
+    width:185px;
+    height:260px;
+    align-items: center;
+    position:relative;
+}
+
+figcaption{
+    position: relative;
+    /* left: 375px; */
+    height: 30px;
+    font-size: 24px;
+    color: #504720;
+    width: 103px;
+    background-color: #FED121;
+    border-radius: 12px;
+    border-width: 0px;
+    /* margin-bottom: 35px; */
+    text-align: center;
+    padding-right: 22px;
+    padding-left: 16px;
+    margin-right: 29px;
+    margin-top: 10px;    
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .oneLiner {
+        margin-top: 10px;
+        float: left;
+        height: 10px;
+        padding-left: 125px;
+        width:70%;
+    }
+
+    main {
+        margin-top: 75px;
+        position: relative;
+        width: 80%;
+        padding-left: 125px;
+    }
+
+    .fs-column {
+         float: left;
+         width: 15%;
+         padding-right: 25px;
+         padding-left: 10px;
+      }
+      .section-header {
+        margin-bottom: 50px;
+        margin-top: 30px;
+        font: normal 25px Sans-Serif;
+        color: #504720;
+        text-align: center;
+        padding-right: 15px;
+       
+    }
+    .fs-column h4{
+        font: normal 15px Sans-Serif;
+        color: #504720;
+        text-align: center;
+        padding-right: 25px;
+       
+    }
+    .fs-column figure{
+        width:75px;
+        height:100px;
+        align-items: center;
+        position:relative;
+        z-index: 1;
+     
+}
+  figure{
+    border: white;
+    background-color: white;
+    width:95px;
+    align-items: center;
+    position:relative;
+}
+   
+figcaption{
+    position: relative;
+    /* left: 375px; */
+    height: 30px;
+    font-size: 24px;
+    color: #504720;
+    width: 50px;
+    background-color: #F8E283;
+    border-radius: 12px;
+    border-width: 0px;
+    /* margin-bottom: 35px; */
+    text-align: center;
+    padding-right: 22px;
+    padding-left: 16px;
+    margin-right: 29px;
+    margin-top: 10px;  
+
+}
+    .about-me h1{
+    font: normal 25px Sans-Serif;
+    color: #504720;
+
+}
+    .about-me p{
+    font: normal 18px Sans-Serif;
+    color: #504720;
+    margin-top: 50px;
+    width: 78%;
+    line-height:1.6;
+    padding-left: 20px;
+}
+
+.my-photo-id {
+    padding-left: 20px;
+    float: right;
+    margin-right: 125px;
+    height: 200px;
+}
+
+.my-skills {
+    margin-top: 150px;
+    width: 78%;
+}
+    .footer{
+    width: 55%;
+    padding-left: 10px;
+}
+.shape {
+    position: relative;
+    left: 200px;
+    height: 64px;
+    width: 105px;
+    background-color: #504720;
+    color: #F8E283;
+    font-size: 20px;
+    border-radius: 12px;
+    border-width: 0px;
+    margin-bottom: 15px;
+    padding-right: 13px;
+    padding-left: 10px;
+    margin-right: 19px;
+    margin-top:15px;
+}
+
+.mainfooter{
+    height: 300px;
+    width: 100%;
+    /*background: #FED121;*/
+    margin-bottom: 0px;
+   
+}
+
+
+}
